@@ -1,0 +1,13 @@
+1. Difference between HTTP1.1 vs HTTP2 
+
+Ans:- 1.HTTP/2 can send multiple requests for data in parallel over a single TCP connection. 
+        It allows you to download web files asynchronously from one server. Which is not possible in HTTP1.1
+2. HTTP1.x used to process text commands to complete request-response cycles.
+   HTTP2 will use binary commands (in 1s and 0s) to execute the same tasks. 
+3. Web browsers support HTTP/2 via encrypted connections hence we get added
+   security, which does not happen in HTTP/1.
+4. In HTTP 1,The concept of headers both for requests (from the client machine) as well as responses (from servers) was introduced. 
+   While HTTP2 uses header compression to reduce the overhead caused by TCP’s slow-start mechanism.
+5. The concept of headers both for requests (from the client machine) as well as responses (from servers) was introduced.
+   HTTP2 servers push likely-to-be-used resources into a browser’s cache, even before they’re requested.
+   This allows browsers to display content without additional request cycles.
